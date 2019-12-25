@@ -1,0 +1,51 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.number-section {
+  /* text-align: left; */
+  /* display: flex;
+  flex-wrap: wrap-reverse; */
+  /* width: 80%; */
+  /* flex-direction: flex-direction; */
+}
+.main {
+  width: 400px;
+  position: relative;
+  left: 30%;
+  display: flex;
+}
+.action-section {
+  width: 20%;
+  text-align: left;
+}
+
+.my-button {
+  height: 40px;
+  min-width: 50px;
+  padding: 10px;
+  margin: 2px;
+}
+.my-button.x {
+  min-width: 105px;
+}
+.my-button.xy {
+  min-width: 160px;
+  background-color: cyan !important;
+}
+.display {
+  /* border: 1px solid grey; */
+  width: 240px;
+  position: relative;
+  left: 30%;
+}
+
+.result {
+  font-weight: bolder;
+  min-height: 20px;
+}
+.history {
+  color: lightgray;
+  min-height: 20px;
+}
